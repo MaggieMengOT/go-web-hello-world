@@ -1,0 +1,5 @@
+1. Create a service account.
+2. Bind proper role/clusterrole(cluster-admin) to this service account.
+3. Get service account's secret name.
+4. Get token value from secret.
+5. Decode token with base64.
